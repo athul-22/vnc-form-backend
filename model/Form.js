@@ -4,105 +4,85 @@ const Form = new mongoose.Schema({
   showroom: {
     type: String,
     required: false,
-    
     maxlength: 255,
   },
   location: {
     type: String,
     required: false,
-    
     maxlength: 255,
   },
   date: {
     type: String,
     required: false,
-    
     maxlength: 255,
   },
   ephoto: {
-    type: Buffer,
+    type: String,
     required: false,
-    
   },
   showroomphoto: {
-    type: Buffer,
+    type: String,
     required: false,
-    
   },
   programbanner: {
-    type: Buffer,
+    type: String,
     required: false,
-    
   },
   participantslist: {
-    type: Buffer,
+    type: String,
     required: false,
-    
   },
   trainingphoto1: {
-    type: Buffer,
+    type: String,
     required: false,
-    
   },
   trainingphoto2: {
-    type: Buffer,
+    type: String,
     required: false,
-    
   },
   trainingphoto3: {
-    type: Buffer,
+    type: String,
     required: false,
-    
   },
   trainingphoto4: {
-    type: Buffer,
+    type: String,
     required: false,
-    
   },
   trainingphoto5: {
-    type: Buffer,
+    type: String,
     required: false,
-    
   },
   trainingphoto6: {
-    type: Buffer,
+    type: String,
     required: false,
-    
   },
   trainingphoto7: {
-    type: Buffer,
+    type: String,
     required: false,
-    
   },
   trainingphoto8: {
-    type: Buffer,
+    type: String,
     required: false,
-    
   },
   qasectionphoto: {
-    type: Buffer,
+    type: String,
     required: false,
-    
   },
   refreshsectionphoto: {
-    type: Buffer,
+    type: String,
     required: false,
-    
   },
   honouringphoto1: {
-    type: Buffer,
+    type: String,
     required: false,
-    
   },
   honouringphoto2: {
-    type: Buffer,
+    type: String,
     required: false,
-    
   },
   groupphoto: {
-    type: Buffer,
+    type: String,
     required: false,
-    
   },
 });
 
